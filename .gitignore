@@ -26,6 +26,20 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# PyTorch model checkpoints
+*.pth
+*.pt
+
+# Data directories
+data/raw/
+data/processed/
+
+# Training logs
+logs/
+
+# Experiment artifacts
+runs/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
